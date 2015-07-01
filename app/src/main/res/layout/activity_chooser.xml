@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#a8d3c9"
+            android:onClick="onEncryptClicked"
+            android:text="Encrypt"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ea9b4c"
+            android:onClick="onDecryptClicked"
+            android:text="Decrypt"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </FrameLayout>
+</LinearLayout>
